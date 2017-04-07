@@ -8,12 +8,37 @@
     android:orientation="vertical"
     tools:context="com.example.whiteowl.personaltrainer.MainScreen">
 
-<!-- XML  here-->
-
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textAllCaps="true"
         android:text="Quantity" />
 
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="Addition" />
+
+    <TextView
+        android:id="@+id/number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sub"
+        android:text="Substraction" />
+
+    <Button
+        android:id="@+id/sec_page_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="secondPage"
+        android:text="Go elsewhere"/>
 </LinearLayout>
