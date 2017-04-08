@@ -18,12 +18,6 @@ public class MainScreen extends AppCompatActivity {
         setContentView(R.layout.activity_main_screen);
         // tutaj sobie coś pozmieniam
         // Kamil to fajny chłopak
-
-
-
-
-
-        /////
         // Sprawdzam
     }
 
