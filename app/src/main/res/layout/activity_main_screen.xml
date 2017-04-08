@@ -7,7 +7,7 @@
     android:padding="8sp"
     android:orientation="vertical"
     tools:context="com.example.whiteowl.personaltrainer.MainScreen">
-
+    <!-- dokonana zmiana -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
